@@ -1,3 +1,279 @@
+* {
+
+	-webkit-box-sizing: border-box;
+
+	-moz-box-sizing: border-box;
+
+	box-sizing: border-box;
+
+}
+
+
+
+*:before, *:after {
+
+	-webkit-box-sizing: border-box;
+
+	-moz-box-sizing: border-box;
+
+	box-sizing: border-box;
+
+}
+
+.masonry {
+  column-count: 1;
+  column-gap: 1em;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+
+body {
+
+	margin: 0 auto;
+
+}
+
+
+.container {
+
+	width: 1150px;
+
+	margin-right: auto;
+
+	margin-left: auto;
+
+	padding-left: 14px;
+
+	padding-right: 14px;
+
+}
+
+
+
+.container:before, .container:after {
+
+	content: " ";
+
+	display: table;
+
+}
+
+
+
+*:before, *:after {
+
+	-webkit-box-sizing: border-box;
+
+	-moz-box-sizing: border-box;
+
+	box-sizing: border-box;
+
+}
+
+
+
+.container:after {
+
+	clear: both;
+
+}
+
 /*
  * Estilos de tu proyecto
  */
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.container {
+	position: fixed;
+	width: 1400px;
+	height: 120px;
+  	font-weight: bolder;
+  	background-color: #2C3E50FF;
+	text-align: center;
+	color: #FFFFFFFF;
+}
+
+#options {
+	padding-top: 20px;
+	font-weight: 800;
+}
+
+#logo {
+	float: left;
+	margin-left: 120px;
+	font-size: xx-large; 
+}
+
+#options a {
+	padding-top: 20px;
+	text-decoration: none;
+	color: #fff;
+	display: inline-block;
+	
+}
+
+.option {
+	float: right;
+	margin: 5px 10px 0;
+	
+}
+
+.option.one {
+	margin-right: 120px;
+}
+
+.sky-blue {
+	width: 100%;
+  	height: 700px;
+  	color: #fff; 
+  	margin-top: 120px; 
+  	display: inline-block;  	
+  	text-align: center;
+	background-color: #18BC9CFF;
+}
+
+.sky-blue h2 {
+	margin: 20px;
+	font-size: 70px;
+  	font-weight: 800;
+
+}
+
+.sky-blue p {
+	text-align: center;
+	font-size: 30px;
+  	font-weight: medium;
+}
+
+.fa-star {	
+	font-size: 50px;
+	color: #fff;
+	position: absolute;
+}
+
+.uno {
+	width: 100px;
+	height: 5px;
+	margin: 0 30px;
+	background-color: white;
+	display: inline-block;
+	border: 0;
+}
+
+#profile {
+	margin-top: 100px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.portfolio {
+	width: 100%;
+  	height: 800px;
+  	text-align: center; 
+	background-color: white;
+}
+
+.portfolio h2 {
+	font-size: 45px;
+	font-weight: 800;
+}
+
+.dos {
+	width: 100px;
+	height: 5px;
+	margin: 0 30px;
+	background-color: black;
+	display: inline-block;
+	border: 0;
+}
+
+.img {
+	width: 290px;
+  	height: 240px;
+  	float: left;
+  	margin: 80px 40px;
+ 	background-repeat: no-repeat;
+  	background-size: 100%;
+}
+
+.first {
+	background-image: url(../assets/images/portfolio/cabin.png);
+	margin-left: 160px;
+}
+
+.second {
+	background-image: url(../assets/images/portfolio/cake.png);
+}
+
+.third {
+	background-image: url(../assets/images/portfolio/circus.png);
+
+}
+
+.fourth {
+	background-image: url(../assets/images/portfolio/game.png);
+	margin-left: 160px;
+}
+
+.fifth {
+	background-image: url(../assets/images/portfolio/safe.png);
+}
+
+.sixth {
+	background-image: url(../assets/images/portfolio/submarine.png);
+}
+
+.about {
+	width: 100%;
+  	height: 700px;
+  	color: white;
+  	text-align: center; 
+	background-color: #18BC9CFF;
+}
+
+.about h2 {
+	padding-top: 100px;
+	font-size: 45px;
+	font-weight: 800;
+}
+
+.parrafo {
+	font-family: 'Lato', sans-serif;
+	
+	float: left;
+	font-size: 25px;
+}
+
+.parrafo p {
+	width: 400px;
+	height: 500px;
+	margin: 90px;
+	columns: 1;
+}
+
+.primero {
+	margin-left: 100px;
+}
+
+.download p {
+	width: 40px;
+	height: 30px;
+	border: 2px solid white;
+	text-align: center;
+}
+
+.contact {
+	width: 100%;
+  	height: 800px;
+  	text-align: center; 
+	background-color: white;
+}
+
+
