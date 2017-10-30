@@ -1,3 +1,6 @@
+
+/*CLASES REUTILIZABLES*/
+
 * {
 
 	-webkit-box-sizing: border-box;
@@ -81,11 +84,12 @@ body {
 
 }
 
-/*
- * Estilos de tu proyecto
- */
+
+/*ESTILOS DE MI PROYECTO*/
+
+
 body {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat', sans-serif;	/*Letra del body*/
 }
 
 .container {
@@ -94,7 +98,7 @@ body {
 	height: 108px;
  	background-color: #2C3E50;
 	text-align: center;
-	color: #FFFFFFFF;
+	color: #FFF;
 }
 
 #options {
