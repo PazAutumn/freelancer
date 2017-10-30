@@ -88,50 +88,51 @@ body {
 /*ESTILOS DE MI PROYECTO*/
 
 
-body {
-	font-family: 'Montserrat', sans-serif;	/*Letra del body*/
+body {							/*Letra del body*/
+	font-family: 'Montserrat', sans-serif;	
 }
+
+/*BARRA SUPERIOR*/
 
 .container {
 	position: fixed;
 	width: 1400px;
 	height: 108px;
- 	background-color: #2C3E50;
+ 	background-color: #2C3E50;	/*Contenedor elementos de barra de navegación*/
 	text-align: center;
 	color: #FFF;
-}
-
-#options {
 	padding-top: 40px;
 	font-weight: bold;
 }
 
-#logo {
-	float: left;
-	margin-left: 120px;
-	font-size: xx-large;
+.container a {
+	text-decoration: none;
+	color: #fff;				/*vínculo*/
 }
 
-#options a {
-	text-decoration: none;
-	color: #fff;
+#logo {
+	float: left;
+	margin-left: 120px;			/*start bootstrap*/
+	font-size: xx-large;
 }
 
 .option {
 	float: right;
-	margin: 5px 10px 0;
+	margin: 5px 10px 0;			/*opciones superior derecho*/
 }
 
 .option.one {
-	margin-right: 120px;
+	margin-right: 120px;		/*margen opción uno*/
 }
+
+/*PRIMERA SECCIÓN*/
 
 .sky-blue {
 	width: 100%;
   	height: 700px;
   	font-weight: bold;
   	color: #fff; 
-  	margin-top: 108px; 
+  	margin-top: 108px; 			/*formato primera sección*/
   	display: inline-block;  	
   	text-align: center;
 	background-color: #18BC9C;
@@ -150,30 +151,32 @@ body {
   	font-weight: 500;
 }
 
+#profile {
+	margin-top: 120px;
+	background-size: 100%;		/*formato imagen*/
+	background-repeat: no-repeat;
+}
+
 .uno {
 	width: 100px;
 	height: 5px;
 	margin: 10px 10px;
-	background-color: white;
+	background-color: white;	/*hr blanco*/
 	display: inline-block;
 	border: 0;
 	font-size: 100px;
 }
 
 .uno i {	
-	color: #fff;
+	color: #fff;				/*estrella blanca*/
 }
 
-#profile {
-	margin-top: 120px;
-	background-size: 100%;
-	background-repeat: no-repeat;
-}
+/*SEGUNDA SECCIÓN*/
 
 .portfolio {
 	width: 100%;
   	height: 800px;
-  	margin-top: 100px;
+  	margin-top: 100px;			/*formato segunda sección*/
   	text-align: center; 
 	background-color: white;
 }
@@ -189,24 +192,24 @@ body {
 	width: 100px;
 	height: 5px;
 	margin: 10px 10px;
-	background-color: #2C3E50;
+	background-color: #2C3E50;	/*hr gris*/
 	display: inline-block;
 	border: 0;
 }
 
 .dos i {
-	color: gray;
+	color: gray;				/*estrella gris*/
 }
 
 .img {
 	width: 350px;
   	height: 252px;
-  	float: left;
+  	float: left;				/*formato imagenes del portafolio*/
   	margin: 15px;
  	background-repeat: no-repeat;
   	background-size: 100%;
 }
-
+								/*imágenes*/
 .first {
 	background-image: url(../assets/images/portfolio/cabin.png);
 	margin-left: 120px;
@@ -234,10 +237,12 @@ body {
 	background-image: url(../assets/images/portfolio/submarine.png);
 }
 
+/*TERCERA SECCIÓN*/
+
 .about {
 	width: 100%;
   	height: 590px;
-  	color: white;
+  	color: white;				/*Formato tercera sección*/
   	text-align: center; 
 	background-color: #18BC9C;
 }
@@ -249,7 +254,7 @@ body {
 }
 
 .parrafo {
-	font-size: 18px;
+	font-size: 18px;			/*formato párrafos*/
 }
 
 .parrafo p {
@@ -265,18 +270,21 @@ body {
 .primero {
 	margin-left: 280px;
 }
+
 .segundo {
   margin-left: 10px;
 }
+
 .download {
-	clear: left;
+	clear: left;				
 }
+
 .download a {
 	width: 40px;
 	height: 30px;
 	border: 2px solid white;
 	padding: 10px;
-	border-radius: .3em;
+	border-radius: .3em;		/*formato botón de download*/
 	color: #fff;
 	font-size: large;
 	font-weight: normal;
@@ -288,24 +296,26 @@ body {
 	margin: 2px;
 }
 
+/*CUARTA SECCIÓN*/
+
 .contact {
 	width: 100%;
   	height: 800px;
-  	margin-top: 100px;
+  	margin-top: 100px;			/*formato cuarta sección*/
   	text-align: center; 
 	background-color: white;
 }
 
 .contact h2 {
 	font-size: 48px;
-	font-weight: 800;
+	font-weight: 800;			
 	color: #212529FF;
 	margin-bottom: 20px;
 }
 
 #contactForm {
 	text-align: left;
-	margin-left: 300px;
+	margin-left: 300px;			/*formatos del formulario*/
 }
 
 .form {
@@ -342,18 +352,20 @@ body {
 	padding-bottom: 200px;
 }
 
+/*FOOTER DE INFORMACIÓN*/
+
 .footer {
 	width: 100%;
   	height: 300px;
-  	color:#fff;
+  	color:#fff;					/*formato footer*/
  	background-color: #2C3E50;
  	text-align: center;
 }
 
 .bottom {
 	margin-top: 10px;
-	float: left;
-	text-align: center;		
+	float: left;				
+	text-align: center;			/*formato cajas de información*/
 }
 
 .bottom h3 {
@@ -367,14 +379,14 @@ body {
 
 .a {
 	width: 380px;
-	height: 170px;
+	height: 170px;				/*texto*/
 	margin-left: 100px;
 }
 
 .b {
 	width: 380px;
 	height: 170px;
-	margin-bottom: 33px;
+	margin-bottom: 33px;		/*iconos de redes sociales*/
 
 }
 
@@ -399,7 +411,7 @@ body {
 
 .c {
 	width: 380px;
-	height: 170px;
+	height: 170px;				/*texto*/
 }
 
 .c p a{
@@ -407,11 +419,13 @@ body {
 	color: #18BC9CFF;
 }
 
+/*FOOTER COPYRIGTH*/
+
 .copyrigth {
   width: 100%;
   height: 60px;
   padding-top: 1px;
-  background-color: #2C3E50;
+  background-color: #2C3E50;	/*formato footer*/
   text-align: center;
   color: white;
   font-family: sans-serif;  
